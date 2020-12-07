@@ -12,7 +12,7 @@
     {% if site.data.theme.social.gravatar %}
     <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
     {% else %}
-    <img class="avatar" src="/images/avatar.jpeg" height="80" width="80" id="avatar" alt="My photo"/>
+    <img class="avatar" src="{{site.baseurl}}/images/avatar.jpeg" height="80" width="80" id="avatar" alt="My photo"/>
     {% endif %}
   </a>
   <h2>我是 <a href="/">{{ site.data.theme.name }}</a>.</h2>
