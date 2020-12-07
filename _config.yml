@@ -4,4 +4,4 @@ url:
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-time-machine
