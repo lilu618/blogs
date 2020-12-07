@@ -1,17 +1,26 @@
 <nav>
   <h1>Hi.</h1>
   <a href="/">
+		<style type="text/css">
+    .avatar{ 
+        margin-top: 0px; 
+        width:150px; 
+        height:150px; 
+        border-radius:150px; 
+    }
+    </style>
     {% if site.data.theme.social.gravatar %}
     <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
     {% else %}
-    <img src="/logo.png" id="logo" alt="Blog logo"/>
+    <img class="avatar" src="/images/avatar.jpeg" height="80" width="80" id="avatar" alt="My photo"/>
     {% endif %}
   </a>
-  <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
+  <h2>我是 <a href="/">{{ site.data.theme.name }}</a>.</h2>
   <div id="bio">
-    <p>A brief bio or something witty.</p>
+    <p> 一个热爱生活的人.</p>
+    <p> 在这里记录下生活的点滴和感想.</p>
     <p>
-      Edit me in <code>_includes/sidebar.html</code>
+    <code> 众生皆苦，唯有自度.</code>
     </p>
   </div>
   <div id="social">
